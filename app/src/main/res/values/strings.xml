@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">冰箱菜谱管家</string>
+
+    <!-- 底部导航 -->
+    <string name="nav_inventory">库存</string>
+    <string name="nav_recommend">推荐</string>
+    <string name="nav_recipes">菜谱</string>
+
+    <!-- 库存页 -->
+    <string name="inventory_empty">冰箱里还没有食材，点右下角 + 添加吧</string>
+    <string name="loading">加载中…</string>
+    <string name="add_ingredient">添加食材</string>
+    <string name="check_now">立即检查临期食材</string>
+    <string name="banner_expired">已过期 %1$d 个</string>
+    <string name="banner_soon">临期 %1$d 个</string>
+    <string name="banner_ok">食材都很新鲜</string>
+
+    <!-- 食材编辑 -->
+    <string name="edit_title_add">新增食材</string>
+    <string name="edit_title_edit">编辑食材</string>
+    <string name="hint_name">食材名称</string>
+    <string name="hint_quantity">数量</string>
+    <string name="hint_unit">单位（个 / 克 / 袋…）</string>
+    <string name="label_category">分类</string>
+    <string name="label_expiry">到期日期</string>
+    <string name="pick_date">选择日期</string>
+    <string name="save">保存</string>
+    <string name="error_name_required">名称不能为空</string>
+
+    <!-- 食材详情 -->
+    <string name="edit">编辑</string>
+    <string name="delete">删除</string>
+    <string name="delete_confirm_title">删除食材</string>
+    <string name="delete_confirm_msg">确定删除「%1$s」吗？</string>
+    <string name="cancel">取消</string>
+    <string name="confirm">确定</string>
+
+    <!-- 状态 -->
+    <string name="status_expired">已过期 %1$d 天</string>
+    <string name="status_today">今天到期</string>
+    <string name="status_left">剩 %1$d 天</string>
+
+    <!-- 推荐页 -->
+    <string name="recommend_header">按现有食材推荐，优先帮你消耗临期食材</string>
+    <string name="recommend_empty">先添加一些食材，才能给你推荐菜谱</string>
+    <string name="recommend_have">已有：%1$s</string>
+    <string name="recommend_missing">还缺：%1$s</string>
+    <string name="recommend_urgent">临期救急：%1$s</string>
+    <string name="recommend_score">推荐度 %1$d</string>
+
+    <!-- 菜谱 -->
+    <string name="recipe_meta">%1$d 种食材 · 约 %2$d 分钟</string>
+    <string name="recipe_need">需要的食材</string>
+    <string name="recipe_steps">做法步骤</string>
+    <string name="recipe_have_prefix">✓ </string>
+    <string name="recipe_missing_prefix">✗ 缺 </string>
+
+    <!-- 通知 -->
+    <string name="notify_channel_name">过期提醒</string>
+    <string name="notify_title">冰箱临期提醒</string>
+    <string name="notify_text">%1$d 个食材已过期，%2$d 个即将过期，快去看看</string>
+    <string name="notify_permission_denied">未授予通知权限，临期提醒改为在 App 内横幅展示</string>
+</resources>

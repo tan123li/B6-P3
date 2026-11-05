@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <!-- 简易小冰箱图标 -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M38,22h32c2.2,0 4,1.8 4,4v56c0,2.2 -1.8,4 -4,4H38c-2.2,0 -4,-1.8 -4,-4V26c0,-2.2 1.8,-4 4,-4z" />
+    <path
+        android:fillColor="#388E3C"
+        android:pathData="M36,46h36v4H36z" />
+    <path
+        android:fillColor="#388E3C"
+        android:pathData="M66,32h4v8h-4z" />
+    <path
+        android:fillColor="#388E3C"
+        android:pathData="M66,56h4v12h-4z" />
+</vector>
