@@ -1,6 +1,5 @@
 plugins {
     id("com.android.application")
-    id("org.jetbrains.kotlin.android")
     id("com.google.devtools.ksp")
 }
 
@@ -27,12 +26,6 @@ android {
         targetCompatibility = JavaVersion.VERSION_17
     }
 
-    kotlin {
-        compilerOptions {
-            jvmTarget.set(org.jetbrains.kotlin.gradle.dsl.JvmTarget.JVM_17)
-        }
-    }
-
     buildFeatures {
         viewBinding = true
     }
@@ -48,6 +41,10 @@ dependencies {
     // 协程 + ViewModel
     implementation("androidx.lifecycle:lifecycle-viewmodel-ktx:2.9.4")
     implementation("androidx.lifecycle:lifecycle-runtime-ktx:2.9.4")
+    // by viewModels() 委托所需的 Activity KTX 扩展
+    implementation("androidx.activity:activity-ktx:1.10.1")
+    // Fragment 与 by activityViewModels() 委托所需的 Fragment KTX 扩展
+    implementation("androidx.fragment:fragment-ktx:1.8.5")
 
     // Room 数据持久化
     implementation("androidx.room:room-runtime:2.8.3")

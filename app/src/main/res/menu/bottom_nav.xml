@@ -10,6 +10,6 @@
         android:title="@string/nav_recommend" />
     <item
         android:id="@+id/nav_recipes"
-        android:icon="@drawable/ic_nav_recipes"
+        android:icon="@drawable/ic_nav_recipe"
         android:title="@string/nav_recipes" />
 </menu>
